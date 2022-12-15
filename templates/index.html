@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Flask Try</title>
+    </head>
+    <body>
+        <h1>Subreddit Recommendation System</h1>
+        <p>Do you want to get up-to-date news and info about COVID-19? Does it take a lot of time for you to find the best information platform?</p>
+        
+        <h2>Get your personalized subreddits recommendation related to COVID!</h2>
+        <form action="/handle_form" method="POST">
+
+            <p>
+                Do you want subreddits with more than 1000 followers? (Yes or No)
+                <input name="answer1" type="text"/><br/>
+            </p>
+
+            <p>
+                Do you want subreddits created before 2020? (Yes or No)
+                <input name="answer2" type="text"/><br/>
+            </p>
+            <p>
+                Do you want subreddits that allow videos? (Yes or No)
+                <input name="answer3" type="text"/><br/>
+            </p>
+
+            <p>
+                Do you want subreddits that allow images? (Yes or No)
+                <input name="answer4" type="text"/><br/>
+            </p>
+
+            <p>
+                Do you want subreddits that accept followers? (Yes or No)
+                <input name="answer5" type="text"/><br/>
+            </p>
+            <input type ="submit"/>
+        </form>
+    </body>
+</html>
